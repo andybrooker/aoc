@@ -1,8 +1,7 @@
 import csv
-import functools
 from typing import List
 
-with open('inputs.csv', newline='') as f:
+with open('inputs/input1.csv', newline='') as f:
     reader = csv.reader(f)
     input_list = list(reader)
 

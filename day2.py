@@ -1,7 +1,7 @@
 from typing import List
 
 
-f = open('input2.txt', 'r')
+f = open('inputs/input2.txt', 'r')
 content = f.read()
 f.close()
 directions = content.split()
